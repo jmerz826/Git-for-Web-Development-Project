@@ -1,0 +1,39 @@
+https://codepen.io/jmerz826/pen/mdwvbBz?editors=1100
+
+1. What is Semantic HTML? SEMANTIC HTML DEFINES TAGS THAT ARE DESCRIPTIVE AS TO WHAT THEY DO (EX: P MEANS PARAGRAPH)
+2. What is HTML used for? HTML IS USED TO POPULATE WEBPAGES WITH RAW INFORMATION: TEXT, DATA, IMAGES, ETC.
+3. What is an attribute and where do we put it? ATTRIBUTE DESCRIBES AN HTML ELEMENT AND IS LOCATED IN THE OPENING TAG
+4. What is the h1 tag used for? How many times should I use it on a page? H1 TAG IS USED FOR PAGE HEADING, SHOULD ONLY BE USED ONCE PER PAGE
+5. Name two tags that have required attributes INPUT AND SELECT 
+6. What do we put in the head of our HTML document? <head>
+7. What is an id? AN ID IS A UNIQUE ATTRIBUTE FOR HTML ELEMENTS 
+8. What elements can I add an id to? ANY
+9. How many times can I use the same id on a page? ONE
+10. What is a class? ATTRIBUTE THAT CAN BE APPLIED TO HTML ELEMENTS
+11. What elements can I add a class to? ANY
+12. How many times can I use the same class on a page? INFINITE
+13. How do I get my link to open in a new tab? target="_blank" in the href tag
+14. What is the alt attribute in the image tag used for? THE ALT-TEXT IS DISPLAYED IF THE BROWSER CANNOT LOAD/SHOW THE IMAGE
+15. How do I reference an id? #'ID-NAME'
+16. What is the difference between a section and a div? SECTION IS SEMANTIC
+17. What is CSS used for? CSS IS HOW WE STYLE HTML
+18. How to we select an element? Example - every h2 on the page. h2{}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one. CLASS CAN BE APPLIED TO MULTIPLE ELEMENTS WHEREAS ID IS UNIQUE. MIGHT WANT TO APPLY CLASS TO SIMILAR INFORMATION THAT'S REPEATED SUCH AS MULTIPLE PRODUCTS ON AN ONLINE STORE. MAY WANT TO USE ID IF YOU WANT ONE ELEMENT TO BE UNIQUE, IE ONLY SECOND PARAGRAPH TO BE RED.
+20. How do we select classes in CSS? ".class-name"
+21. How do we select a p element with a single class of “human””? ".human p"
+22. What is a parent child selector? When would this be useful? PARENT CHILD SELECTOR IS A SPECIFIC SELECTOR THAT SELECTS A CHILD ELEMENT IF AND ONLY IF PARENT CONDITION IS MET.
+23. How do you select all links within a div with the class of sidebar? ".sidebar a"
+24. What is a pseudo selector? PSEUDO SELECTOR ESTABLISHES AN EXTERNAL CONDITION THAT MUST BE MET FOR CODE TO BE EXECUTED, IE ".class:hover" WILL ONLY APPLY WHEN CLASS IS HOVERED OVER
+25. What do we use the change the spacing between lines? LINE-HEIGHT 
+26. What do we use to change the spacing between letters? LETTER-SPACING
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
+29. How do I select everything on the page? *{}
+30. How do I write a comment in CSS? /* .... */
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder? $ pwd
+33. How do I remove a file via the command line? Why do I have to be careful with this? $ rm <file>. YOU MUST BE CAREFUL BECAUSE THERE IS NO TURNING BACK, AND YOU MAY SERIOUSLY DAMAGE YOUR COMPUTER IF YOU MAKE A MISTAKE
+34. Why should I use version control? YOU SHOULD USE VERSION CONTROL TO COLLABORATE WITH OTHERS IN AN ORGANIZED FASHION AND TO KEEP LOG OF CHANGES.
+35. How often should I commit to github? COMMIT WHENEVER YOU COMPLETE A FEATURE OR EVERY ~20 MINUTES
+36. What is the command we would use to push our repo up to github? 'git push -u origin <branch-name>'
+37. Walk me through Lambda's git flow. FORK THE REPO, CLONE IT TO LOCAL COMPUTER, CREATE A BRANCH ON LOCAL, DO YOUR WORK, ADD WORK LOCAL BRANCH, COMMIT CHANGES TO REPO, PUSH CHANGES TO GITHUB, CREATE PULL REQUEST
